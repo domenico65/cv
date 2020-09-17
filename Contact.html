@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+
+  <style media="screen">
+    .picture {
+      width: 150px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table cellspacing="10">
+    <tr>
+      <td>
+        <img class="picture" src="images/Domenico.png" alt="Domenico">
+        <!--ho creato una classe "picture" per definire lo stile/dimensione -->
+      </td>
+      <td>
+        <h1>Domenico Rossi</h1>
+        <p>I work in a <strong>Telecommunication Company</strong></p>
+        <p>I am Dott. in Business Administration. I love to play tennis.</p>
+      </td>
+    </tr>
+  </table>
+
+
+  <h3>Contact details</h3>
+  <h4>cell. +3900000000</h4>
+  <h4>email: domenicorossi65@gmail.com</h4>
+  <h4>Address: Via G.Cesare n.34</h4>
+  <h4>Naples, Italy</h4>
+  <hr>
+  <br>
+
+  <!-- <form class="" action="index.html" method="post"> -->
+  <form action="mailto:domenicorossi65@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="Name" value="Pippo Franco" required><br><br>
+    <label>Your email:</label>
+    <input type="email" name="email" value="xyz@gmail.com" required><br><br>
+    <label>Password:</label>
+    <input type="password" name="password" value="*****" required><br><br>
+    <label>Provide your questions and comments:</label><br>
+    <textarea name="Description" rows="8" cols="40"></textarea><br><br>
+    <label>Do you want to sign up to our newsletter?</label>
+    <input type="checkbox" name="" value="checkbox">
+    <input type="submit" name="checkbox" value="Submit">
+  </form>
+
+</body>
+
+</html>
